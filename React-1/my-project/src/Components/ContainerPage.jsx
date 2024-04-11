@@ -4,7 +4,7 @@ import Box from "./Box";
 
 function ContainerPage() {
   return (
-    <div className=" bg-slate-950 h-auto w-auto">
+    <div className=" h-auto w-auto">
       <Header />
       <Box />
 
