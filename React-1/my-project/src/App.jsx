@@ -1,6 +1,5 @@
 
 import './App.css'
-import '@radix-ui/themes/styles.css';
 import ContainerPage from './Components/ContainerPage'
 function App() {
 
