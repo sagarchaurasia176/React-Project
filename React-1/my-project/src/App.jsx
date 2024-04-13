@@ -1,15 +1,16 @@
-
-import './App.css'
-import ContainerPage from './Components/ContainerPage'
+import "./App.css";
+import ContainerPage from "./pages/Box";
+import TypeBox from "./pages/TypeBox";
 function App() {
-
   return (
     <>
-      <div className=' bg-slate-950  h-screen w-auto'>
-          <ContainerPage />
+      <div className="  h-screen ">
+        <ContainerPage/>
+        <br></br>
+        <TypeBox/>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -5,7 +5,7 @@ import {ClimbingBoxLoader} from 'react-spinners'
 function Spinner() {
     return (
         <div>
-            <ClimbingBoxLoader color="#36d7b7" />
+            <ClimbingBoxLoader color="#36d7b7" className=' m-auto' />
         </div>
     )
 }
